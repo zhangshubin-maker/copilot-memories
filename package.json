@@ -1,0 +1,14 @@
+{
+  "name": "copilot-memories",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VS Code Copilot Chat 用户级记忆备份仓库",
+  "scripts": {
+    "sync": "node sync.js",
+    "sync:dry": "node sync.js --dry",
+    "sync:local": "node sync.js --no-push"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
